@@ -1,0 +1,7 @@
+pt-BR:
+  actual_locale: "Portugues do Brasil"
+  hello: "Olá Mundo"
+  links:
+    edit: 'editar'
+    show: 'Mostrar'
+    destroy: 'deletar'

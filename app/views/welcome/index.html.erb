@@ -1,7 +1,9 @@
 <h1>Seja Bem Vindo</h1>
-<p> O local é :<%= local(I18n.locale)  %> </p>
+<p> Location:<%= t('actual_locale')  %> </p>
+
+<p><%=I18n.t('hello')%></p>
 
 <p>
-    <strong>Data: </strong> <%= data_br (Date.today)%> 
+    <strong>Data: <%= l(Date.today) %> </strong>  
 </p> 
 <%= render "menu" %>
