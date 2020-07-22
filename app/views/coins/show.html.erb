@@ -15,5 +15,12 @@
   <%= image_tag(@coin.url_image, size: "25x25")%>
 </p>
 
+<p>
+  <strong>MiningType:</strong>
+  <%=mostrar_mining_type%>
+</p>
+
+
+
 <%= link_to 'Edit', edit_coin_path(@coin) %> |
 <%= link_to 'Back', coins_path %>
