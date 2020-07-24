@@ -1,4 +1,11 @@
+<p> <%=link_to 'Portugues', root_path(locale: 'pt-BR') %> </p>
+<p> <%=link_to 'English', root_path(locale: 'en') %> </p>
+
+
+
 <h1>Seja Bem Vindo</h1>
+<h2> <%= cookies[:curso] %> </h2>
+<h2> <%= session[:curso] %> </h2>
 <p> Location:<%= t('actual_locale')  %> </p>
 
 <p><%=I18n.t('hello')%></p>
