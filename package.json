@@ -1,5 +1,13 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "notify-js-legacy": "^0.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brendomonteiro/Curso-Rails.git",
+  "author": "brendomonteiro <brendomonteirodasilva@gmail.com>",
+  "license": "MIT"
 }
