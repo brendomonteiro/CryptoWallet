@@ -1,11 +1,21 @@
 en:
-  actual_locale: "English"
+  current_locale: "English"
   hello: "Hello world"
+  inicio:
+    bemvindo: Welcome!!
+    frase: This is a crypto wallet, an application to register and track cryptocurrency.
+    frase2: To start choose one. 
+    confirm: Are you sure?
+    coin: Coins
+    mining_type: Mining Type
+    nova: New Coin
+    edit: Editing Coin 
   links:
     edit: 'edit'
     show: 'show'
     destroy: 'destroy'
-    
-    
-
+    backs: back
+  botao:
+    new: 'New'
+ 
 

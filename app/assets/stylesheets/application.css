@@ -12,4 +12,6 @@
  *
 .
  *= require_self
+ *= require bootstrap/dist/css/bootstrap
  */
+ 

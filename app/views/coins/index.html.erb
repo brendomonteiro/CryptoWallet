@@ -1,10 +1,7 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Coins</h1>
-<h2> <%= cookies[:curso] %> </h2>
-<h2> <%= session[:curso] %> </h2>
-
-<table>
+<h1><%= t('inicio.coin')  %></h1>
+<table class="table table-hover" >
   <thead>
     <tr>
       <th><%= @coins.human_attribute_name(:descripcion)%></th>
@@ -25,7 +22,7 @@
          
         <td><%= link_to t('links.show'), coin %></td>
         <td><%= link_to t('links.edit'), edit_coin_path(coin) %></td>
-        <td><%= link_to t('links.destroy'), coin, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('links.destroy'), coin, method: :delete, data: { confirm: t('inicio.confirm') } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -33,4 +30,4 @@
 
 <br>
 
-<%= link_to 'New Coin', new_coin_path %>
+<%= link_to t('botao.new'), new_coin_path, class:"btn btn-primary" %>

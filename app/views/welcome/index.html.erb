@@ -1,16 +1,7 @@
-<p> <%=link_to 'Portugues', root_path(locale: 'pt-BR') %> </p>
-<p> <%=link_to 'English', root_path(locale: 'en') %> </p>
-
-
-
-<h1>Seja Bem Vindo</h1>
-<h2> <%= cookies[:curso] %> </h2>
-<h2> <%= session[:curso] %> </h2>
-<p> Location:<%= t('actual_locale')  %> </p>
-
-<p><%=I18n.t('hello')%></p>
-
-<p>
-    <strong>Data: <%= l(Date.today) %> </strong>  
-</p> 
-<%= render "menu" %>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('inicio.bemvindo')  %></h1>
+  <p class="lead"><%= t('inicio.frase')  %></p>
+  <hr class="my-4">
+  <p><%= t('inicio.frase2')  %></p>
+  <%= render "menu"  %>
+</div>

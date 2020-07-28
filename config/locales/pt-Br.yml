@@ -1,7 +1,21 @@
 pt-BR:
-  actual_locale: "Portugues do Brasil"
+  current_locale: "Portugues do Brasil"
   hello: "Olá Mundo"
+  inicio:
+    bemvindo: Bem Vindo!!
+    frase: Esse é o CryptoWallet uma aplicação para você cadastrar e acompanhar suas crypto moedas
+    frase2: 'Para começar selecione uma das opções abaixo:'
+    confirm: Tem certeza?
+    coin: Moeda
+    mining_type: Mining Type
+    nova: Nova Moeda
+    edit: Editando Moedas
   links:
-    edit: 'editar'
-    show: 'Mostrar'
-    destroy: 'deletar'
+    edit: editar
+    show: Mostrar
+    destroy: deletar
+    backs: voltar
+  botao:
+    new: Novo
+  
+  

@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Mining Types</h1>
+<h1><%= t('inicio.mining_type')  %></h1>
 
-<table>
+<table class="table table-hover">
   <thead>
     <tr>
       <th><%= @mining_types.human_attribute_name(:description)%></th>
@@ -18,7 +18,7 @@
         <td><%= mining_type.acronym %></td>
         <td><%= link_to t('links.show'), mining_type %></td>
         <td><%= link_to t('links.edit'), edit_mining_type_path(mining_type) %></td>
-        <td><%= link_to t('links.destroy'), mining_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to t('links.destroy'), mining_type, method: :delete, data: { confirm: t('inicio.confirm') } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Mining Type', new_mining_type_path %>
+<%= link_to  t('botao.new'), new_mining_type_path, class:"btn btn-primary" %>
